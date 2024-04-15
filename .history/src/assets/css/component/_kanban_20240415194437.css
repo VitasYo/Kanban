@@ -1,0 +1,72 @@
+.kanban {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex: 0 0 100%;
+    border-radius: 32px;
+    border: 20px solid #2B1887;
+    background-color: #2B1887;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.kanban__column {
+    height: 398px;
+    width: 560px;
+    background-color: #D5CCFF;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 20px;
+}
+
+.kanban__title_and_icon {
+    display: flex;
+    width: 560px;
+    margin-bottom: 24px;
+    
+}
+
+.kanban__title {
+    color: #2B1887;
+    font-size: 32px;
+    padding-left: 16px;
+} 
+
+.card {
+    background-color: white;    
+    border: 24px solid;
+    border-radius: 16px;
+}
+
+.card_title {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card_items {
+    margin-top: 16px;
+    display: flex;
+}
+
+.card_pin {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ECB800;
+}
+
+.card_scale {
+    display: flex;
+}
+
+
+.card_scale_item {
+    padding: 8px;
+}
+
+.card_date {
+    font-size: 24px;
+    color: #2B1887;
+}

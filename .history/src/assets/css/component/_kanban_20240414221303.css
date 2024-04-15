@@ -1,0 +1,30 @@
+.kanban {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex: 0 0 100%;
+    border-radius: 32px;
+    border: 40px solid #2B1887;
+}
+
+.kanban__column {
+    flex: 0 0 100%;
+    height: 478px;
+    background-color: #D5CCFF;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 0 
+    
+}
+
+.kanban__title {
+    color: #2B1887;
+    font-size: 32px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+} 
+
+.kanban__title_and_icon {
+    display: flex;
+}
